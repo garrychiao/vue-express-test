@@ -1,5 +1,5 @@
 const Joi = require('joi')
-
+// Joi is to verify inputs
 module.exports = {
   register (req, res, next){
     const schema = {

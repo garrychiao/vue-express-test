@@ -10,5 +10,8 @@ module.exports = {
       storage: './vue_express_test.mysql',
       operatorsAliases: false
     }
+  },
+  authentication: {
+    jwtSecret: process.env.JWT_SECRET || 'secret'
   }
 }
